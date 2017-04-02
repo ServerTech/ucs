@@ -1,6 +1,6 @@
 /* Uniform Cost Search
  * Author: Shreyas Vinod
- * Email:  shreyasvinod.me
+ * Email:  shreyas@shreyasvinod.me
  */
 
 #include <iostream>
@@ -179,12 +179,12 @@ void displayFrontier(priority_queue<Path, vector<Path>,
 {
   cout << "[ {";
 
-  while (frontier.size() != 0)
+  while (frontier.size() > 0)
   {
     displayPath(frontier.top());
     frontier.pop();
 
-    if (frontier.size() != 0)
+    if (frontier.size() > 0)
       cout << "}, {";
     else
       cout << "} ]";
