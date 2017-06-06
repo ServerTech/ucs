@@ -1,6 +1,6 @@
 /* Uniform Cost Search
  * Author: Shreyas Vinod
- * Email:  shreyas@shreyasvinod.me
+ * Email:  shreyas@shreyasvinod.xyz
  */
 
 #include <iostream>
